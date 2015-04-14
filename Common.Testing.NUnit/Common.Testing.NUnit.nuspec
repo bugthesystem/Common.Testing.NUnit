@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Common.Testing.NUnit</id>
+    <version>1.0.0</version>
+    <title>Common Testing NUnit</title>
+    <authors>ziya.sarikaya</authors>
+    <owners>ziya.sarikaya</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides base class with generic methods for testing</description>
+    <summary>Provides base class with generic methods for testing</summary>
+    <language>en-US</language>
+    <tags>common testing nunit</tags>
+    <dependencies>
+      <dependency id="AutoFixture" version="3.24.3" />
+      <dependency id="FluentAssertions" version="3.3.0" />
+      <dependency id="Moq" version="4.2.1502.0911" />
+      <dependency id="NUnit" version="2.6.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Common.Testing.NUnit.dll" exclude="bin\Release\*.dll.config" target="lib\net45\Common.Testing.NUnit.dll" />
+  </files>
+</package>
