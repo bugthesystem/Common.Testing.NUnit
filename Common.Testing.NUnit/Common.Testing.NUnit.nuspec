@@ -6,11 +6,13 @@
     <title>Common Testing NUnit</title>
     <authors>ziya.sarikaya</authors>
     <owners>ziya.sarikaya</owners>
+    <licenseUrl>https://github.com/ziyasal/Common.Testing.NUnit/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ziyasal/Common.Testing.NUnit</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides base class with generic methods for testing</description>
     <summary>Provides base class with generic methods for testing</summary>
     <language>en-US</language>
-    <tags>common testing nunit</tags>
+    <tags>common moq testing nunit</tags>
     <dependencies>
       <dependency id="AutoFixture" version="3.24.3" />
       <dependency id="FluentAssertions" version="3.3.0" />
