@@ -4,6 +4,6 @@ Provides base class with generic methods for testing
 
 To install;
 
-```sh
+```bash
 Install-Package Common.Testing.NUnit
 ```
